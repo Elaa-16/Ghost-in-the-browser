@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+
+
+# Logs
+*.log
+
+# Distribution
+dist/
+build/
+*.egg-info/

@@ -1,0 +1,33 @@
+{
+  "browser": {
+    "headless": false,
+    "window_width": 1920,
+    "window_height": 1080,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "disable_images": false,
+    "disable_javascript": false,
+    "ignore_certificate_errors": true
+  },
+  "security": {
+    "encrypt_credentials": true,
+    "session_timeout": 3600,
+    "max_login_attempts": 3,
+    "use_proxy": false,
+    "proxy_list": []
+  },
+  "behavior": {
+    "min_delay": 1.0,
+    "max_delay": 3.0,
+    "typing_delay_range": [
+      0.05,
+      0.2
+    ],
+    "mouse_movement_range": [
+      10,
+      50
+    ],
+    "random_scroll": true,
+    "max_scroll_amount": 300
+  },
+  "last_updated": "2025-12-21T04:22:01.337696"
+}
